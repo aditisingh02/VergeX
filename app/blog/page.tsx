@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { LanguageSelector } from "@/components/LanguageSelector";
 import Link from "next/link";
 import { getBlogPosts } from "@/lib/blog";
 import BlogPageClient from "./BlogPageClient";
@@ -47,6 +48,11 @@ export default async function BlogPage() {
               >
                 Blog
               </Link>
+            </div>
+
+            {/* Language Selector - Desktop */}
+            <div className="hidden md:block">
+              <LanguageSelector variant="minimal" />
             </div>
 
             {/* Desktop CTA Button */}

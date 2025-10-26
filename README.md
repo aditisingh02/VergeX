@@ -14,6 +14,7 @@ Verge is a modern color palette generator designed to help you create beautiful,
 - Comprehensive colorblind simulation to ensure inclusive design
 - Curated theme presets from popular design systems
 - Educational blog content covering color theory and accessibility best practices
+- **🌍 Multi-language support with 40+ languages using Google Translate integration**
 
 ## Features
 
@@ -54,6 +55,19 @@ Verge is a modern color palette generator designed to help you create beautiful,
 - **Dark/Light Modes**: Toggle between themes for comfortable viewing
 - **Keyboard Navigation**: Full accessibility support
 - **Performance**: Lightning-fast with static generation and optimized assets
+- **🌍 Multi-language Support**: Translate the entire website into 40+ languages including Spanish, French, German, Chinese, Japanese, Hindi, Arabic, and more
+
+### Internationalization
+
+- **40+ Languages**: Comprehensive language support using Google Translate API
+- **Persistent Selection**: User's language preference is saved automatically
+- **Beautiful UI**: Flag emojis and native language names for easy recognition
+- **Real-time Translation**: Instant translation of all content
+- **Zero Configuration**: Works out of the box with no setup required
+
+> 📖 See [TRANSLATION_QUICKSTART.md](TRANSLATION_QUICKSTART.md) for quick setup guide
+> 
+> 📚 See [TRANSLATION_SETUP.md](TRANSLATION_SETUP.md) for complete documentation
 
 ### Blog & Resources
 

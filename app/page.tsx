@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { LanguageSelector } from "@/components/LanguageSelector";
 import {
   ArrowRight,
   CheckCircle,
@@ -77,6 +78,11 @@ export default function LandingPage() {
               </Link>
             </div>
 
+            {/* Language Selector - Desktop */}
+            <div className="hidden md:block">
+              <LanguageSelector variant="minimal" />
+            </div>
+
             {/* Desktop CTA Button */}
             <Button
               size="sm"
@@ -129,6 +135,10 @@ export default function LandingPage() {
               >
                 Blog
               </Link>
+              {/* Language Selector - Mobile */}
+              <div className="pt-2 border-t border-muted-foreground/20">
+                <LanguageSelector variant="minimal" />
+              </div>
               <div className="pt-2 border-t border-muted-foreground/20">
                 <Button
                   size="sm"
@@ -239,8 +249,9 @@ export default function LandingPage() {
                   alt="Verge"
                   width={384}
                   height={384}
+                  unoptimized
                   className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-3xl object-contain"
-                  style={{ aspectRatio: "1/1" }}
+                  style={{ aspectRatio: "1/1", width: "auto", height: "auto" }}
                 />
               </div>
             </div>

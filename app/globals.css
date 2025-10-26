@@ -166,3 +166,102 @@
   width: 100%;
   filter: drop-shadow(0 0 10px var(--animation-color));
 }
+
+/* Google Translate Styles - Override default widget styling */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  display: none !important;
+}
+
+#google_translate_element {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+  position: relative !important;
+}
+
+.goog-te-menu-value {
+  display: none !important;
+}
+
+/* Hide Google Translate default UI completely */
+.goog-te-banner-frame {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.goog-te-gadget {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+#google_translate_element {
+  display: none !important;
+  visibility: hidden !important;
+  position: fixed !important;
+  top: -9999px !important;
+  left: -9999px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  z-index: -9999 !important;
+}
+
+.goog-te-combo {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.goog-te-menu-value {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.goog-te-menu-value span {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+iframe.goog-te-menu-frame {
+  display: none !important;
+  visibility: hidden !important;
+  max-width: 100% !important;
+  z-index: -9999 !important;
+}
+
+iframe.goog-te-banner-frame {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.skiptranslate {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Fix for top spacing caused by Google Translate */
+body > .skiptranslate:first-child {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide any Google Translate elements */
+body > .skiptranslate,
+.goog-te-banner,
+.goog-te-spinner-pos {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Ensure content is visible during translation */
+.translated-ltr {
+  direction: ltr !important;
+}
+
+.translated-rtl {
+  direction: rtl !important;
+}
