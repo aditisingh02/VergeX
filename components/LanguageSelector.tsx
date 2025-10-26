@@ -7,8 +7,33 @@ import {
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue,
 } from "@/components/ui/select";
+
+// Type definitions for Google Translate
+interface GoogleTranslateElementClass {
+  new (config: {
+    pageLanguage: string;
+    includedLanguages: string;
+    layout: number;
+  }, elementId: string): void;
+  InlineLayout: {
+    SIMPLE: number;
+  };
+}
+
+interface GoogleTranslate {
+  translate: {
+    TranslateElement: GoogleTranslateElementClass;
+  };
+}
+
+declare global {
+  interface Window {
+    google?: GoogleTranslate;
+    googleTranslateElementInit?: () => void;
+    googleTranslateInitialized?: boolean;
+  }
+}
 
 interface Language {
   code: string;
@@ -82,7 +107,7 @@ export function LanguageSelector({ variant = "default" }: LanguageSelectorProps)
 
     try {
       // Check if already initialized - CRITICAL to prevent re-initialization
-      if ((window as any).googleTranslateInitialized || isInitialized) {
+      if (window.googleTranslateInitialized || isInitialized) {
         console.log("ℹ️ Already initialized, skipping...");
         setIsInitialized(true);
         return;
@@ -98,18 +123,18 @@ export function LanguageSelector({ variant = "default" }: LanguageSelectorProps)
       }
 
       // Define callback before loading script
-      (window as any).googleTranslateElementInit = function () {
+      window.googleTranslateElementInit = function () {
         try {
-          if ((window as any).google?.translate?.TranslateElement) {
-            new (window as any).google.translate.TranslateElement(
+          if (window.google?.translate?.TranslateElement) {
+            new window.google.translate.TranslateElement(
               {
                 pageLanguage: "en",
                 includedLanguages: languages.map((lang) => lang.code).join(","),
-                layout: (window as any).google.translate.TranslateElement.InlineLayout.SIMPLE,
+                layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE,
               },
               "google_translate_element"
             );
-            (window as any).googleTranslateInitialized = true;
+            window.googleTranslateInitialized = true;
             setIsInitialized(true);
             console.log("✅ Google Translate initialized");
           }
@@ -130,8 +155,8 @@ export function LanguageSelector({ variant = "default" }: LanguageSelectorProps)
           setError("Failed to load");
         };
         document.head.appendChild(script);
-      } else if ((window as any).google?.translate) {
-        (window as any).googleTranslateInitialized = true;
+      } else if (window.google?.translate) {
+        window.googleTranslateInitialized = true;
         setIsInitialized(true);
       }
     } catch (err) {

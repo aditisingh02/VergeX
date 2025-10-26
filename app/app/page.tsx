@@ -51,11 +51,12 @@ export default function App() {
     await generatePalette(baseColor, harmonyType);
   };
 
-  const handleSavePalette = () => {
-    if (currentPalette) {
-      savePaletteToStorage(currentPalette);
-    }
-  };
+  // Removed unused handleSavePalette function
+  // const handleSavePalette = () => {
+  //   if (currentPalette) {
+  //     savePaletteToStorage(currentPalette);
+  //   }
+  // };
 
   const togglePreviewTheme = () => {
     setPreviewTheme((prev) => (prev === "light" ? "dark" : "light"));
