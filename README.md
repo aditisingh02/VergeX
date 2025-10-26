@@ -6,7 +6,7 @@
 
 It provides instant previews on real UI components, color blindness simulation, export formats (CSS, Tailwind, JSON, Figma), and persistent theme and language preferences — making it your all-in-one color design companion for designers and developers alike.  
 
-<img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/3ba4f952-ecba-4796-85d1-ced7d868b0c3" />
+https://github.com/user-attachments/assets/95743b39-6f08-4b85-a951-0dc50331466f
 
 ---
 
