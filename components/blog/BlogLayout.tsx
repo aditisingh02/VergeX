@@ -100,11 +100,11 @@ export function BlogLayout({ metadata, children }: BlogLayoutProps) {
                 Enjoyed this article?
               </h3>
               <p className="text-muted-foreground mb-4">
-                Try creating your own color palettes with Verge
+                Try creating your own color palettes with VergeX
               </p>
               <div className="flex gap-3 justify-center">
                 <Button asChild>
-                  <Link href="/app">Try Verge</Link>
+                  <Link href="/app">Try VergeX</Link>
                 </Button>
                 <Button variant="outline" asChild>
                   <Link href="/blog">More Articles</Link>

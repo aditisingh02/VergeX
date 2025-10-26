@@ -1,9 +1,9 @@
 import { ColorPalette } from "@/types/palette";
 
 const STORAGE_KEYS = {
-  SAVED_PALETTES: "verge_saved_palettes",
-  USER_PREFERENCES: "verge_user_preferences",
-  FAVORITES: "verge_favorites",
+  SAVED_PALETTES: "vergex_saved_palettes",
+  USER_PREFERENCES: "vergex_user_preferences",
+  FAVORITES: "vergex_favorites",
 };
 
 export interface UserPreferences {

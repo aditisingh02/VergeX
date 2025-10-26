@@ -106,7 +106,7 @@ function extractMetadata(
       description: descriptionMatch[1],
       date: dateMatch[1],
       readTime: readTimeMatch?.[1] || "5 min read",
-      author: authorMatch?.[1] || "Verge Team",
+      author: authorMatch?.[1] || "VergeX Team",
       tags,
       content: mdxContent,
     };

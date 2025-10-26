@@ -46,7 +46,7 @@ export default function LandingPage() {
             {/* Logo */}
             <div className="flex items-center gap-2">
               <span className="text-xl font-[family-name:var(--font-staatliches)]">
-                Verge
+                VergeX
               </span>
             </div>
 
@@ -196,7 +196,7 @@ export default function LandingPage() {
                     asChild
                   >
                     <Link
-                      href="https://github.com/aditisingh02/verge"
+                      href="https://github.com/aditisingh02/VergeX"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -245,7 +245,7 @@ export default function LandingPage() {
               >
                 <Image
                   src="/verge.gif"
-                  alt="Verge"
+                  alt="VergeX"
                   width={384}
                   height={384}
                   unoptimized
@@ -387,7 +387,7 @@ export default function LandingPage() {
                 </Badge>
                 <h2 className="text-4xl font-bold mb-6">Built for everyone</h2>
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Verge automatically checks your color combinations against
+                  VergeX automatically checks your color combinations against
                   WCAG guidelines, ensuring your designs are accessible to users
                   with different visual abilities.
                 </p>
@@ -447,7 +447,7 @@ export default function LandingPage() {
               Ready to create amazing palettes?
             </h2>
             <p className="text-xl text-muted-foreground mb-10">
-              Join designers and developers who trust Verge for their color
+              Join designers and developers who trust VergeX for their color
               palette needs
             </p>
 
@@ -466,7 +466,7 @@ export default function LandingPage() {
                 asChild
               >
                 <Link
-                  href="https://github.com/aditisingh02/verge"
+                  href="https://github.com/aditisingh02/VergeX"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -486,7 +486,7 @@ export default function LandingPage() {
             <div className="flex items-center gap-3">
               <Image
                 src="/cube.gif"
-                alt="Verge"
+                alt="VergeX"
                 width={24}
                 height={24}
                 unoptimized
@@ -494,7 +494,7 @@ export default function LandingPage() {
               />
               <div>
                 <h3 className="font-bold font-[family-name:var(--font-staatliches)]">
-                  Verge
+                  VergeX
                 </h3>
                 <p className="text-xs text-muted-foreground">
                   Your Palette, Perfected
@@ -504,7 +504,7 @@ export default function LandingPage() {
 
             <div className="flex items-center gap-4 text-sm text-muted-foreground">
               <Link
-                href="https://github.com/aditisingh02/verge"
+                href="https://github.com/aditisingh02/VergeX"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-foreground transition-colors"

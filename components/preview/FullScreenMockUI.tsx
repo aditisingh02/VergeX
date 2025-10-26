@@ -76,7 +76,7 @@ export function FullScreenMockUI({ palette, theme }: FullScreenMockUIProps) {
             >
               <div className="w-4 h-4 bg-white rounded"></div>
             </div>
-            <div className="text-xl font-bold">Verge</div>
+            <div className="text-xl font-bold">VergeX</div>
           </div>
 
           <nav className="space-y-2">

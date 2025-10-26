@@ -53,7 +53,7 @@ export function MockUI({ palette, theme }: MockUIProps) {
         style={styles.surface}
       >
         <div className="flex items-center gap-3">
-          <div className="text-lg font-bold">Verge</div>
+          <div className="text-lg font-bold">VergeX</div>
           <nav className="hidden sm:flex items-center gap-4 text-sm">
             <a href="#" className="hover:opacity-80">
               Home

@@ -74,12 +74,12 @@ export default function App() {
                   <Link href="/">
                     <button
                       className="verge-button text-4xl tracking-tight"
-                      data-text="Verge"
+                      data-text="VergeX"
                       onClick={() => (window.location.href = "/")}
                     >
-                      <span className="actual-text">&nbsp;Verge&nbsp;</span>
+                      <span className="actual-text">&nbsp;VergeX&nbsp;</span>
                       <span aria-hidden="true" className="hover-text">
-                        &nbsp;Verge&nbsp;
+                        &nbsp;VergeX&nbsp;
                       </span>
                     </button>
                   </Link>

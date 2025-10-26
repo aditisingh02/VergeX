@@ -20,7 +20,7 @@ const staatliches = Staatliches({
 });
 
 export const metadata: Metadata = {
-  title: "Verge - Your Palette, Perfected.",
+  title: "VergeX - Your Palette, Perfected.",
   description:
     "Generate beautiful, accessible color palettes for your design projects. Create harmonious color schemes with real-time preview and export to multiple formats.",
   keywords: [
@@ -42,22 +42,22 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://verge-ui.vercel.app/"),
+  metadataBase: new URL("https://verge-x.vercel.app/"),
   alternates: {
     canonical: "/",
   },
-  openGraph: {
-    title: "Verge - Your Palette, Perfected.",
+    openGraph: {
+    title: "VergeX - Your Palette, Perfected.",
     description:
       "Generate beautiful, accessible color palettes for your design projects. Create harmonious color schemes with real-time preview and export to multiple formats.",
-    url: "https://verge-ui.vercel.app",
-    siteName: "Verge",
+    url: "https://verge-x.vercel.app",
+    siteName: "VergeX",
     images: [
       {
-        url: "https://verge-ui.vercel.app/verge.png",
+          url: "https://verge-x.vercel.app/vergex.png",
         width: 1200,
         height: 630,
-        alt: "Verge - Color Palette Generator",
+          alt: "VergeX - Color Palette Generator",
         type: "image/png",
       },
     ],
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Verge - Your Palette, Perfected.",
+    title: "VergeX - Your Palette, Perfected.",
     description:
       "Generate beautiful, accessible color palettes for your design projects. Create harmonious color schemes with real-time preview and export to multiple formats.",
     images: ["/verge.png"],
