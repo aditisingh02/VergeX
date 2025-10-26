@@ -519,7 +519,7 @@ export default function LandingPage() {
                 Blog
               </Link>
               <span>•</span>
-              <span>© 2024 Aditi Singh</span>
+              <span>© 2025 VergeX</span>
             </div>
           </div>
         </div>
