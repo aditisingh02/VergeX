@@ -1,159 +1,77 @@
-# Verge - Your Palette,Perfected
+# VergeX — Your Palette, Perfected  
 
 **_Pick a mood. Paint your story. Make every pixel count._**
 
-Verge is a modern color palette generator designed to help you create beautiful, accessible, and harmonious color schemes for any design project. It utilizes established color theory principles (like complementary, analogous, triadic, and split-complementary) and provides real-time WCAG accessibility checks, previews on real UI components, support for color blindness simulation, and multiple export formats (CSS, Tailwind, JSON, Figma). Verge makes it easy for designers and developers of all levels to generate, customize, and apply palettes that are both visually appealing and inclusive.
+**VergeX** is a next-generation color palette generator designed to help you create stunning, accessible, and harmonious color schemes for any design project. It combines advanced color theory (complementary, analogous, triadic, split-complementary) with cutting-edge accessibility validation and **real-time translation in 40+ languages**, powered by Google Translate API.  
+
+It provides instant previews on real UI components, color blindness simulation, export formats (CSS, Tailwind, JSON, Figma), and persistent theme and language preferences — making it your all-in-one color design companion for designers and developers alike.  
 
 <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/3ba4f952-ecba-4796-85d1-ced7d868b0c3" />
 
-**Key Highlights:**
+---
 
-- Generate scientifically-backed color harmonies using proven color theory principles
-- Real-time accessibility validation with WCAG 2.1 compliance checking
-- Professional export formats ready for production use across design tools and frameworks
-- Comprehensive colorblind simulation to ensure inclusive design
-- Curated theme presets from popular design systems
-- Educational blog content covering color theory and accessibility best practices
-- **🌍 Multi-language support with 40+ languages using Google Translate integration**
+## 🌟 Key Highlights  
 
-## Features
+- Generate scientifically-backed color harmonies using color theory principles  
+- Real-time accessibility validation with WCAG 2.1 compliance  
+- Multi-format export for CSS, Tailwind, JSON, and Figma tokens  
+- Colorblind simulation for inclusive design  
+- Curated presets from major design systems  
+- **🌍 Built-in Multi-language Support (40+ languages)** with Google Translate  
+- Persistent language and theme preferences  
+- Modern UI with dark/light mode and responsive design  
 
-### Color Generation
+---
 
-- **Intelligent Palette Creation**: Generate harmonious color schemes using advanced color theory
-- **Multiple Harmony Types**: Analogous, complementary, triadic, and split-complementary schemes
-- **Flexible Input**: Support for HEX, RGB, HSL, and color names
-- **Real-time Preview**: See colors applied instantly to UI components
-- **Color Manipulation**: Fine-tune hue, saturation, and lightness
+## 🎨 Features  
 
-### Accessibility First
+### 1. Color Generation  
+- **Intelligent Palette Creation** – Uses advanced color theory to generate balanced schemes  
+- **Multiple Harmony Types** – Analogous, complementary, triadic, split-complementary  
+- **Flexible Input** – HEX, RGB, HSL, and color names supported  
+- **Real-time Preview** – Instantly view palettes on UI mockups  
+- **Color Manipulation** – Fine-tune hue, saturation, and brightness  
 
-- **WCAG 2.1 Compliance**: Real-time contrast ratio validation
-- **AA/AAA Standards**: Visual indicators for accessibility compliance levels
-- **Colorblind Support**: Simulate different types of color vision deficiency
-- **Accessibility Insights**: Get recommendations for improving color accessibility
-- **Text Readability**: Ensure sufficient contrast for all text elements
+### 2. Accessibility First  
+- **WCAG 2.1 Validation** – Real-time contrast checking  
+- **AA/AAA Indicators** – Visual markers for compliance  
+- **Colorblind Simulation** – Deuteranopia, Protanopia, Tritanopia modes  
+- **Readability Insights** – Dynamic feedback for better contrast  
 
-### Theme Presets
+### 3. Theme Presets  
+- **Curated Collections** – Tailwind, Material Design, iOS, Neumorphism  
+- **Instant Apply** – One-click theme switching  
+- **Custom Themes** – Save, manage, and reuse personal palettes  
 
-- **Curated Collections**: Material Design, Tailwind CSS, iOS, and Neumorphism presets
-- **One-Click Application**: Instantly apply professional color schemes
-- **Custom Themes**: Create, save, and manage your own color palettes
-- **Theme Categories**: Organized by style, mood, and use case
+### 4. Export & Integration  
+- **Developer Ready** – Copy or download in JSON, CSS, SCSS, Tailwind config, or Figma tokens  
+- **Production Optimized** – Clean code exports  
+- **Framework Support** – Works with major design systems  
 
-### Export & Integration
+### 5. User Experience  
+- **Modern Interface** – Sleek, minimal, and animated  
+- **Responsive Design** – Optimized for desktop, tablet, and mobile  
+- **Dark/Light Mode** – Instant toggle  
+- **Keyboard Accessible** – WCAG-compliant navigation  
 
-- **Multiple Formats**: JSON, CSS variables, SCSS, Tailwind config, and Figma tokens
-- **Developer Ready**: Copy to clipboard or download as files
-- **Production Optimized**: Clean, formatted code ready for implementation
-- **Framework Support**: Export formats for popular design systems
+---
 
-### User Experience
+## 🌐 Multi-language & Internationalization  
 
-- **Modern Interface**: Clean, intuitive design with smooth animations
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Dark/Light Modes**: Toggle between themes for comfortable viewing
-- **Keyboard Navigation**: Full accessibility support
-- **Performance**: Lightning-fast with static generation and optimized assets
-- **🌍 Multi-language Support**: Translate the entire website into 40+ languages including Spanish, French, German, Chinese, Japanese, Hindi, Arabic, and more
+**VergeX** is globally inclusive — every feature is available in your language.  
 
-### Internationalization
+### Translation Features  
+- **40+ Languages Supported** (English, Spanish, French, German, Hindi, Chinese, Japanese, Arabic, Portuguese, and more)  
+- **Google Translate API Integration** – Real-time translation of all UI text  
+- **Persistent Preferences** – Saves user’s selected language locally  
+- **Beautiful UI** – Flag icons, native language names, and smooth dropdown animations  
+- **Zero Config Setup** – Works automatically with no setup required  
+---
 
-- **40+ Languages**: Comprehensive language support using Google Translate API
-- **Persistent Selection**: User's language preference is saved automatically
-- **Beautiful UI**: Flag emojis and native language names for easy recognition
-- **Real-time Translation**: Instant translation of all content
-- **Zero Configuration**: Works out of the box with no setup required
-
-> 📖 See [TRANSLATION_QUICKSTART.md](TRANSLATION_QUICKSTART.md) for quick setup guide
-> 
-> 📚 See [TRANSLATION_SETUP.md](TRANSLATION_SETUP.md) for complete documentation
-
-### Blog & Resources
-
-- **Design Insights**: Learn color theory and best practices
-- **Markdown Support**: Rich content with proper formatting
-- **Interactive Examples**: See color principles in action
-- **Accessibility Guides**: Comprehensive accessibility information
-
-### Installation
-
-1. Clone the repository:
+## ⚙️ Installation  
 
 ```bash
-git clone https://github.com/aditisingh02/verge.git
-cd verge
-```
-
-```bash
-git clone git@github.com:aditisingh02/verge.git
-cd verge
-```
-
-2. Install dependencies:
-
-```bash
+git clone https://github.com/aditisingh02/vergex.git
+cd vergex
 npm install
-# or
-yarn install
-# or
-pnpm install
-```
-
-3. Run the development server:
-
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Project Structure
-
-```
-verge/
-├── app/                    # Next.js App Router
-├── components/
-│   ├── ui/
-│   ├── palette/           # Color palette components
-│   ├── preview/           # Live preview components
-│   ├── accessibility/     # Accessibility check
-│   ├── presets/          # Theme presets
-│   └── export/           # Exports for different formats
-├── lib/
-│   ├── color/            # Color processing
-│   ├── export/           # generate export format
-│   ├── presets/          # Theme presets
-│   └── utils/            # Utility functions
-├── types/                # TypeScript type definitions
-└── hooks/
-```
-
-## Usage
-
-1. **Generate a Palette**: Enter a base color and select a harmony type
-2. **Preview**: See colors applied to UI components
-3. **Check Accessibility**: Review WCAG compliance for color combinations
-4. **Export**: Download or copy palette in preferred format
-5. **Save**: Store palettes for future use
-
-## Contributing
-
-Contributions are accepted. Submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/FeatureName`)
-3. Commit your changes (`git commit -m 'Add FeatureName'`)
-4. Push to the branch (`git push origin feature/FeatureName`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-Accessibility guidelines from WCAG 2.1
