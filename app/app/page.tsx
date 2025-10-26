@@ -10,6 +10,7 @@ import { ContrastChecker } from "@/components/accessibility/ContrastChecker";
 import { ColorBlindnessChecker } from "@/components/accessibility/ColorBlindnessChecker";
 import { ThemePresets } from "@/components/presets/ThemePresets";
 import { ExportPanel } from "@/components/export/ExportPanel";
+import { LanguageSelector } from "@/components/LanguageSelector";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -85,6 +86,7 @@ export default function App() {
               </div>
             </div>
             <div className="flex items-center gap-3">
+              <LanguageSelector variant="minimal" />
               {currentPalette && (
                 <ColorFormatToggle
                   format={colorFormat}
