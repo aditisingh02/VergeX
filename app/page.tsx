@@ -12,7 +12,6 @@ import {
   Menu,
   Paintbrush,
   Sparkles,
-  Star,
   X,
 } from "lucide-react";
 import Link from "next/link";

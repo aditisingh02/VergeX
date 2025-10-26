@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,16 +12,16 @@ interface BlogPageClientProps {
 }
 
 export default function BlogPageClient({ blogPosts }: BlogPageClientProps) {
-  const [activeCategory, setActiveCategory] = useState("All Categories");
-
-  const categories = [
-    "All Categories",
-    "Design",
-    "Accessibility",
-    "Color Theory",
-    "Development",
-    "WCAG",
-  ];
+  // Removed unused state and variables
+  // const [activeCategory, setActiveCategory] = useState("All Categories");
+  // const categories = [
+  //   "All Categories",
+  //   "Design",
+  //   "Accessibility",
+  //   "Color Theory",
+  //   "Development",
+  //   "WCAG",
+  // ];
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);

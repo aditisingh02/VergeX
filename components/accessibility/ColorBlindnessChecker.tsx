@@ -353,7 +353,9 @@ export function ColorBlindnessChecker({
   const selectedTypeInfo = COLOR_BLINDNESS_TYPES.find(
     (t) => t.type === selectedType
   );
-  const severity = getColorBlindnessSeverity(selectedType);
+  
+  // Removed unused severity variable
+  // const severity = getColorBlindnessSeverity(selectedType);
 
   return (
     <Card>
